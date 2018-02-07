@@ -1,0 +1,209 @@
+/* ===============
+   GENERAL
+   =============== */
+
+@font-face {
+	font-family:'Raleway Bold';
+	src:url('http://static.coreapps.net/pcma/html/Raleway-Bold.ttf');
+}
+
+@font-face {
+	font-family:'Raleway Light';
+	src:url('http://static.coreapps.net/pcma/html/Raleway-Light.ttf');
+}
+
+@font-face {
+	font-family:'Raleway Medium';
+	src:url('http://static.coreapps.net/pcma/html/Raleway-Medium.ttf');
+}
+
+@font-face {
+	font-family:'Raleway Regular';
+	src:url('http://static.coreapps.net/pcma/html/Raleway-Regular.ttf');
+}
+
+body {
+font-family:'Raleway Medium', Helvetica, Arial, Sans Serif;
+background: linear-gradient(
+      rgba(84, 160, 212, 0.75),
+      rgba(84, 160, 212, 0.75)
+    ), url('http://static.coreapps.net/pcma/html/pattern-1.jpg');
+}
+
+a {
+
+}
+
+p {
+
+}
+
+.uppercase {
+	text-transform:uppercase;
+}
+
+.hidden {
+	display:none;
+}
+
+.img-responsive {
+	width:100%;
+	display:block;
+}
+
+
+/* ===============
+   BUMPERS
+   =============== */
+
+.top-bumper-xxl {
+	margin-top:100px !important;
+}
+
+.top-bumper-xl {
+	margin-top:80px !important;
+}
+
+.top-bumper-lg {
+	margin-top:60px !important;
+}
+
+.top-bumper-md {
+	margin-top:40px !important;
+}
+
+.top-bumper-sm {
+	margin-top:20px !important;
+}
+
+.top-bumper-xs {
+	margin-top:10px !important;
+}
+
+.top-bumper-none {
+	margin-top:0 !important;
+}
+
+.bottom-bumper-xxl {
+	margin-bottom:100px !important;
+}
+
+.bottom-bumper-xl {
+	margin-bottom:80px !important;
+}
+
+.bottom-bumper-lg {
+	margin-bottom:60px !important;
+}
+
+.bottom-bumper-md {
+	margin-bottom:40px !important;
+}
+
+.bottom-bumper-sm {
+	margin-bottom:20px !important;
+}
+
+.bottom-bumper-xs {
+	margin-bottom:10px !important;
+}
+
+.bottom-bumper-none {
+	margin-bottom:0 !important;
+}
+
+/* ===============
+   CONTENT
+   =============== */
+
+.app-wrapper {
+	padding:30px 30px 30px 30px;
+}
+
+.btn-blue {
+	border-radius:0;
+	text-transform:uppercase;
+	background-color: rgba(84, 160, 212, 0.9);
+	color:#fff;
+	padding:30px 20px 30px 20px;
+	font-size:14px;
+	letter-spacing:1px;
+}
+
+.btn-1 {
+	background: linear-gradient(
+      rgba(84, 160, 212, 0.75),
+      rgba(84, 160, 212, 0.75)
+    ), url('[[button-1.jpg]]');
+	background-position:top center;
+	background-size:cover;
+}
+
+.btn-2 {
+	background: linear-gradient(
+      rgba(84, 160, 212, 0.75),
+      rgba(84, 160, 212, 0.75)
+    ), url('[[button-2.png]]');
+	background-position:top center;
+	background-size:cover;
+}
+
+.btn-3 {
+	background: linear-gradient(
+      rgba(84, 160, 212, 0.75),
+      rgba(84, 160, 212, 0.75)
+    ), url('[[button-3.jpg]]');
+	background-position:top center;
+	background-size:cover;
+}
+
+.btn-4 {
+	background: linear-gradient(
+      rgba(84, 160, 212, 0.75),
+      rgba(84, 160, 212, 0.75)
+    ), url('[[button-4.jpg]]');
+	background-position:top center;
+	background-size:cover;
+}
+
+.btn-5 {
+	background: linear-gradient(
+      rgba(84, 160, 212, 0.75),
+      rgba(84, 160, 212, 0.75)
+    ), url('[[button-5]]');
+	background-position:top center;
+	background-size:cover;
+}
+
+.btn-6 {
+	background: linear-gradient(
+      rgba(84, 160, 212, 0.75),
+      rgba(84, 160, 212, 0.75)
+    ), url('[[button-6.jpg]]');
+	background-position:top center;
+	background-size:cover;
+}
+
+.btn-7 {
+	background: linear-gradient(
+      rgba(84, 160, 212, 0.75),
+      rgba(84, 160, 212, 0.75)
+    ), url('[[button-7.jpg]]');
+	background-position:top center;
+	background-size:cover;
+}
+
+.btn-blue:hover {
+	color:#fff;
+}
+
+.btn.active, .btn:active {
+    background-image:initial !important;
+	color:#fff !important;
+	background:rgba(84, 160, 212, 1);
+}
+
+.small-gutters {
+	padding-left:10px;
+	padding-right:10px;
+}
